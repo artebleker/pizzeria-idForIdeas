@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+.pedidos{
+    width:800px ;
+    height: 400px;
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*centrar vertical*/
+    align-items: center;    
+    border: solid 3px rgb(19, 241, 93);
+    background-color: cadetblue;
+    
+}
+
+.peri{
+    width:400px ;
+    height: 400px;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*centrar vertical*/
+    align-items: center;    
+    border: solid 3px rgb(19, 241, 93);
+}
+.text{
+    text-align: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+}
