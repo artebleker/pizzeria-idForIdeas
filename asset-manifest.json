@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pizzeria-idForIdeas/static/css/main.2ce95cf4.css",
+    "main.js": "/pizzeria-idForIdeas/static/js/main.02f97301.js",
+    "static/media/pizza.svg": "/pizzeria-idForIdeas/static/media/pizza.9a50f8bd74da2b324b3f118b68b4f8e5.svg",
+    "static/media/logo.jpg": "/pizzeria-idForIdeas/static/media/logo.5a8ed4edea8c750f684d.jpg",
+    "static/media/napolitana.jpg": "/pizzeria-idForIdeas/static/media/napolitana.68ae3925d9b6ff902d8c.jpg",
+    "static/media/muzzarella.jpg": "/pizzeria-idForIdeas/static/media/muzzarella.7433495fbbaf602dd67d.jpg",
+    "static/media/jamon.jpg": "/pizzeria-idForIdeas/static/media/jamon.969d0977637d8a0f2c02.jpg",
+    "static/media/empanada_carne.jpg": "/pizzeria-idForIdeas/static/media/empanada_carne.ee17c40f1e48deb14ef6.jpg",
+    "static/media/empanada_atun.jpg": "/pizzeria-idForIdeas/static/media/empanada_atun.45123c0dbdcccdda1a53.jpg",
+    "static/media/empanada_jamonyqueso.jpg": "/pizzeria-idForIdeas/static/media/empanada_jamonyqueso.7936146646856fc913ee.jpg",
+    "static/media/cerveza.jpg": "/pizzeria-idForIdeas/static/media/cerveza.7a6b007dac2e829562e0.jpg",
+    "static/media/almendrado.jpg": "/pizzeria-idForIdeas/static/media/almendrado.aedff99132cfd594f5d8.jpg",
+    "index.html": "/pizzeria-idForIdeas/index.html",
+    "main.2ce95cf4.css.map": "/pizzeria-idForIdeas/static/css/main.2ce95cf4.css.map",
+    "main.02f97301.js.map": "/pizzeria-idForIdeas/static/js/main.02f97301.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ce95cf4.css",
+    "static/js/main.02f97301.js"
+  ]
+}
