@@ -34,6 +34,7 @@ const Header = () => {
             <img src={helado} alt=""  className={style.img} />
 
         </div>
+        
     );
 }
 

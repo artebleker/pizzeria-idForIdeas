@@ -209,18 +209,3 @@ const Products = () => {
 
 export default Products;
 
-//  <div id="pizza">
-//     {
-//       pedidosData.map((pedido)=>{
-//           return(
-//               <div key={pedido.id} className={style.pedidos}>
-//                   <div className={style.peri} >
-//                         <h3>{pedido.nombre}</h3>
-//                         <span>{pedido.precio}</span>
-//                         <p className={style.text}>{pedido.parrafo}</p>
-//                     </div>
-//                     <img className={style.img2} src={pedido.imagen} alt="ghgh" />
-//               </div>
-//           )})
-//     }
-// </div>

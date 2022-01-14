@@ -3,7 +3,7 @@ import muzzarella from "../../assets/images/muzzarella.jpg"
 import almendrado from "../../assets/images/almendrado.jpg"
 import empanada_jamonyqueso from "../../assets/images/empanada_jamonyqueso.jpg"
 import gaseosa from "../../assets/images/gaseosa.jpg"
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./Carousel.module.css"
 
 
