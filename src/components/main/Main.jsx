@@ -15,7 +15,7 @@ const Main = () => {
 
             </div>
             <Products />
-            <button>!Ordenar ahora!</button>
+            <button className='btn btn-dark'>!Ordenar ahora!</button>
         </div>
     );
 }
