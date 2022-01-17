@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizzeria-idForIdeas/static/css/main.c454a056.css",
-    "main.js": "/pizzeria-idForIdeas/static/js/main.cec85a08.js",
+    "main.js": "/pizzeria-idForIdeas/static/js/main.6aa08b09.js",
     "static/media/pizza.svg": "/pizzeria-idForIdeas/static/media/pizza.9a50f8bd74da2b324b3f118b68b4f8e5.svg",
     "static/media/logo.jpg": "/pizzeria-idForIdeas/static/media/logo.5a8ed4edea8c750f684d.jpg",
     "static/media/napolitana.jpg": "/pizzeria-idForIdeas/static/media/napolitana.68ae3925d9b6ff902d8c.jpg",
@@ -14,10 +14,10 @@
     "static/media/almendrado.jpg": "/pizzeria-idForIdeas/static/media/almendrado.aedff99132cfd594f5d8.jpg",
     "index.html": "/pizzeria-idForIdeas/index.html",
     "main.c454a056.css.map": "/pizzeria-idForIdeas/static/css/main.c454a056.css.map",
-    "main.cec85a08.js.map": "/pizzeria-idForIdeas/static/js/main.cec85a08.js.map"
+    "main.6aa08b09.js.map": "/pizzeria-idForIdeas/static/js/main.6aa08b09.js.map"
   },
   "entrypoints": [
     "static/css/main.c454a056.css",
-    "static/js/main.cec85a08.js"
+    "static/js/main.6aa08b09.js"
   ]
 }
