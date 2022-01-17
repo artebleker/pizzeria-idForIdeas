@@ -4,7 +4,7 @@ import style from './Main.module.css'
 import pizza from "../../assets/images/pizza.svg"
 import Carousel from '../carousel/Carousel';
 import Products from '../products/Products';
-
+import { Link } from 'react-router-dom';
 const Main = () => {
     return (
         <div className={ style.mani}>
@@ -15,9 +15,11 @@ const Main = () => {
 
             </div>
             <Products />
+            <Link to="/comprar">
             <button className='btn btn-dark'>!Ordenar ahora!</button>
+            </Link>
         </div>
     );
 }
-
+// 
 export default Main;
