@@ -3,11 +3,45 @@
     margin: 0;
     padding: 0;
     }
-
-.text{
-    text-align: center;
+.pedidos{
+    width:800px ;
+    height: 400px;
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*centrar vertical*/
+    align-items: center;    
+    /* border: solid 3px rgb(19, 241, 93); */
+    background-color: none;
+    
 }
-.img{
+
+.peri{
+    width:400px ;
+    height: 400px;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*centrar vertical*/
+    align-items: center;    
+    /* border: solid 3px rgb(19, 241, 93); */
+}
+
+#text{
+    text-align: center;
+    text-decoration-line: none;
+    text-decoration-style:none ;
+    text-decoration-color:none;
+}
+.img2{
     width: 400px;
     height: 400px;
+}
+#btnDerJaime{
+
+    margin-left: -150px;
+}
+#btnIzqJaime{
+    margin-right: -150px;
+    
 }

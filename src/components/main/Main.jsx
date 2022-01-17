@@ -10,14 +10,17 @@ const Main = () => {
         <div className={ style.mani}>
             <h1 className={style.titulo}> Mundo Pizza  </h1>            
             <img src={pizza} alt=""  className={style.pizza}/>
+            
             <div className={style.pedidos}>  
- <Carousel /> 
-
+                <Carousel /> 
             </div>
+            
             <Products />
+            
             <Link to="/comprar">
-            <button className='btn btn-dark'>!Ordenar ahora!</button>
+                <button className='btn btn-dark'>!Ordenar ahora!</button>
             </Link>
+            
         </div>
     );
 }

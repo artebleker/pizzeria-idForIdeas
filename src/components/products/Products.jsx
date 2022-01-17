@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./products.css";
+import style from "./products.module.css";
 // -----------------------------imagenes-----------------------------
 import muzzarella from "../../assets/images/muzzarella.jpg";
 import napolitana from "../../assets/images/napolitana.jpg";
@@ -13,6 +13,7 @@ import empanada_carne from "../../assets/images/empanada_carne.jpg";
 import empanada_jamonyqueso from "../../assets/images/empanada_jamonyqueso.jpg";
 import gaseosa from "../../assets/images/gaseosa.jpg";
 import helado from "../../assets/images/helado.jpg";
+import logo from "../../assets/images/logo.jpg"
 
 const Products = () => {
   const pedidosData = [
@@ -138,13 +139,17 @@ const Products = () => {
   );
 
   return (
-    <>
+    <div className={style.ordenar}>
+      <div className={style.imgLogo}>
+        <img src={logo} alt="" />
+      </div>
+      
       <div id="pizza">
           <h2>Pizzas</h2>
         {
             pizza.map((pedido) => {
                 return(
-                    <div key={pedido.id} className={style.pedidos}>
+            <div key={pedido.id} className={style.pedidos}>
               <div className={style.peri}>
                 <h3>{pedido.nombre}</h3>
                 <span>{pedido.precio}</span>
@@ -176,7 +181,7 @@ const Products = () => {
         {
             postre.map((pedido) => {
                 return(
-                    <div key={pedido.id} className={style.pedidos}>
+            <div key={pedido.id} className={style.pedidos}>
               <div className={style.peri}>
                 <h3>{pedido.nombre}</h3>
                 <span>{pedido.precio}</span>
@@ -203,7 +208,7 @@ const Products = () => {
           )
         })}
       </div>
-    </>
+    </div>
   );
 };
 

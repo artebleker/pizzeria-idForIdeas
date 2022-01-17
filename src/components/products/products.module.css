@@ -2,35 +2,41 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    }
-
+}
+.ordenar{
+    margin-top: 70px;
+    background-color:#f1f0de ;
+    
+}
+.imgLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .pedidos{
-    width:800px ;
+    width:850px ;
     height: 400px;
     color: snow;
     display: flex;
     flex-direction: row;
-    justify-content: center; /*centrar vertical*/
-    align-items: center;    
-    border: solid 3px rgb(19, 241, 93);
-    background-color: cadetblue;
-    
+    justify-content: space-between; /*centrar vertical*/
+    align-items: center;     
 }
 
 .peri{
+    
     width:400px ;
     height: 400px;
-    color: snow;
+    color: rgb(54, 54, 54);
     display: flex;
     flex-direction: column;
     justify-content: center; /*centrar vertical*/
     align-items: center;    
-    border: solid 3px rgb(19, 241, 93);
 }
 .text{
     text-align: center;
 }
-.img{
+.img2{
     width: 400px;
     height: 400px;
 }
