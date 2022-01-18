@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./products.module.css";
 // -----------------------------imagenes-----------------------------
 import muzzarella from "../../assets/images/muzzarella.jpg";
 import napolitana from "../../assets/images/napolitana.jpg";
 import jamon from "../../assets/images/jamon.jpg";
-import agua from "../../assets/images/agua.jpg";
+import agua from "../../assets/images/agua3.svg";
 import almendrado from "../../assets/images/almendrado.jpg";
 import bombones from "../../assets/images/bombones.jpg";
-import cerveza from "../../assets/images/cerveza.jpg";
+import cerveza from "../../assets/images/cerveza3.svg";
 import empanada_atun from "../../assets/images/empanada_atun.jpg";
 import empanada_carne from "../../assets/images/empanada_carne.jpg";
 import empanada_jamonyqueso from "../../assets/images/empanada_jamonyqueso.jpg";
-import gaseosa from "../../assets/images/gaseosa.jpg";
-import helado from "../../assets/images/helado.jpg";
+import gaseosa from "../../assets/images/gaseosa3.svg";
+import helado from "../../assets/images/helado2.jpg";
 import logo from "../../assets/images/logo.jpg"
+import mas from "../../assets/images/mas.svg";
+import menos from "../../assets/images/menos.svg";
 
 const Products = () => {
   const pedidosData = [
@@ -138,6 +140,10 @@ const Products = () => {
     (producto) => producto.producto == "bebida"
   );
 
+const [contador,setContador] = useState(0);
+const [restador,setRestador] = useState(0);
+
+
   return (
     <div className={style.ordenar}>
       <div className={style.imgLogo}>
@@ -156,6 +162,19 @@ const Products = () => {
                 <p className={style.text}>{pedido.parrafo}</p>
               </div>
               <img className={style.img2} src={pedido.imagen} alt="ghgh" />
+
+              <div className={style.btnCantidad}>
+                <img onClick={()=>{
+                  setContador(contador+1)
+                  }} 
+                  className={style.mas} src={mas} alt="" />
+                <p>Cantidad:{contador}</p>
+               <img  onClick={()=>{
+                  setContador(contador-1)
+                  }} 
+                  className={style.mas} src={menos} alt="" />
+              </div>
+
             </div>
           )
         })}

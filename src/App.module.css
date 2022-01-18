@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnWhatsaap{
+    position: fixed;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    border-radius: 40%;
+}
+
+.imgWhatsaap{
+    width: 50px;
+    height: 50px;
+    transition: all 1s ease;
+}
+.imgWhatsaap:hover{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.comprar{
+    position: fixed;
+    line-height: 45px; 
+    bottom: 30px;
+    right: 50%;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}

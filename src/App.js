@@ -4,11 +4,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CartProductContextProvider from "./components/cart/CartProductContext"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CartProducts from "./components/cart/CartProducts";
+import whatsaap from "./assets/images/whatsaap.svg"
+import style from "./App.module.css"
+import { Link } from 'react-router-dom';
+
+const {comprar}=style
+
 function App() {
   return (
     <>
     <CartProductContextProvider>
     <BrowserRouter>
+
+    <a   className={style.btnWhatsaap} target="_blank" href="https://api.whatsapp.com/send?phone=3105042211" rel="noreferrer">
+      <img className={style.imgWhatsaap} src={whatsaap} alt="ghgh" />
+    </a>
+    <Link to="/comprar">
+      <button className={comprar }>!Ordenar ahora!</button>
+    </Link>
+    
       <Header/>
       <Routes>
         <Route path='/' element={<Main/>}/>

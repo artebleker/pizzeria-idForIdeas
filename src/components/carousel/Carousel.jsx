@@ -39,7 +39,8 @@ const Carousel = () => {
               </div>
               <img className={style.img2} src={muzzarella} alt="ghgh" />
             </div>
-          </a>    
+          </a>  
+            
       </div>
 
       <div className="carousel-item">
