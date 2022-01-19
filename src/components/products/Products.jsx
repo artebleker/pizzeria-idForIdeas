@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./products.module.css";
+import Counter from "../counter/Counter";
 // -----------------------------imagenes-----------------------------
 import muzzarella from "../../assets/images/muzzarella.jpg";
 import napolitana from "../../assets/images/napolitana.jpg";
@@ -14,8 +15,7 @@ import empanada_jamonyqueso from "../../assets/images/empanada_jamonyqueso.jpg";
 import gaseosa from "../../assets/images/gaseosa3.svg";
 import helado from "../../assets/images/helado2.jpg";
 import logo from "../../assets/images/logo.jpg"
-import mas from "../../assets/images/mas.svg";
-import menos from "../../assets/images/menos.svg";
+
 
 const Products = () => {
   const pedidosData = [
@@ -140,10 +140,6 @@ const Products = () => {
     (producto) => producto.producto == "bebida"
   );
 
-const [contador,setContador] = useState(0);
-const [restador,setRestador] = useState(0);
-
-
   return (
     <div className={style.ordenar}>
       <div className={style.imgLogo}>
@@ -163,17 +159,7 @@ const [restador,setRestador] = useState(0);
               </div>
               <img className={style.img2} src={pedido.imagen} alt="ghgh" />
 
-              <div className={style.btnCantidad}>
-                <img onClick={()=>{
-                  setContador(contador+1)
-                  }} 
-                  className={style.mas} src={mas} alt="" />
-                <p>Cantidad:{contador}</p>
-               <img  onClick={()=>{
-                  setContador(contador-1)
-                  }} 
-                  className={style.mas} src={menos} alt="" />
-              </div>
+              <Counter id={pedido.id}/> 
 
             </div>
           )
@@ -191,6 +177,7 @@ const [restador,setRestador] = useState(0);
                 <p className={style.text}>{pedido.parrafo}</p>
               </div>
               <img className={style.img2} src={pedido.imagen} alt="ghgh" />
+              <Counter id={pedido.id}/>
             </div>
           )
         })}
@@ -207,6 +194,7 @@ const [restador,setRestador] = useState(0);
                 <p className={style.text}>{pedido.parrafo}</p>
               </div>
               <img className={style.img2} src={pedido.imagen} alt="ghgh" />
+              <Counter id={pedido.id}/>
             </div>
           )
         })}
@@ -223,6 +211,7 @@ const [restador,setRestador] = useState(0);
                 <p className={style.text}>{pedido.parrafo}</p>
               </div>
               <img className={style.img2} src={pedido.imagen} alt="ghgh" />
+              <Counter id={pedido.id}/>
             </div>
           )
         })}

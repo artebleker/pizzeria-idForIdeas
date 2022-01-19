@@ -4,9 +4,11 @@ import style from './Main.module.css'
 import pizza from "../../assets/images/pizza.svg"
 import Carousel from '../carousel/Carousel';
 import Products from '../products/Products';
+import ComprarBtn from '../comprarBtn/comprarBtn';
 
 const Main = () => {
-    return (
+    return (<>
+    <ComprarBtn/>
         <div className={ style.mani}>
             <h1 className={style.titulo}> Mundo Pizza  </h1>            
             <img src={pizza} alt=""  className={style.pizza}/>
@@ -16,11 +18,10 @@ const Main = () => {
             </div>
             
             <Products />
-            
-            
-            
+    
         </div>
+        </>
     );
 }
-// 
+
 export default Main;
